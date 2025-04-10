@@ -21,7 +21,7 @@
   <macros>
         <import>macros.xml</import>
   </macros>
-  <expand macro="xrefs"/>
+
   <expand macro="requirements_frogsfunc" >
 	<requirement type="package" version="4.5.2">dendropy</requirement>
   </expand>
@@ -88,8 +88,8 @@
 		<test>
 			<param name="input_fasta" value="input/frogsfunc.fasta" />
             <param name="input_biom" value="input/frogsfunc.biom" />
-			<param name="marker.name" value="picrust2_default_dir_16S"/>
-			<param name="marker.placement_tool" value="picrust2_default_dir_16S"/>
+			<param name="marker" value="16S"/>
+			<param name="placement_tool" value="sepp"/>
 			<param name="min_align" value="0.8" />
 			
 			<output name="output_fasta" file="references/25-frogsfunc_placeseqs.fasta" compare="diff" lines_diff="0" />

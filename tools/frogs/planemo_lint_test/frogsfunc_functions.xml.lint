@@ -1,0 +1,15 @@
+Linting tool /home/maria/workspace/FROGS-wrappers_dev/tools/frogs/frogsfunc_functions.xml
+.. CHECK (TestsNoValid): 1 test(s) found.
+.. INFO (OutputsNumber): 18 outputs found.
+.. INFO (InputsNum): Found 10 input parameters.
+.. CHECK (HelpPresent): Tool contains help section.
+.. CHECK (HelpValidRST): Help contains valid reStructuredText.
+.. CHECK (ToolIDValid): Tool defines an id [FROGSFUNC_step2_functions].
+.. CHECK (ToolNameValid): Tool defines a name [FROGSFUNC_2_functions].
+.. CHECK (ToolProfileLegacy): Tool targets 16.01 Galaxy profile.
+.. CHECK (ToolVersionValid): Tool defines a version [4.2.0+galaxy1].
+.. INFO (CommandInfo): Tool contains a command.
+.. CHECK (CitationsFound): Found 2 citations.
+.. INFO: Requirement [frogs@4.2.0] matches target in best practice Conda channel [https://conda.anaconda.org/bioconda/linux-64].
+.. INFO: Requirement [picrust2@2.5.1] matches target in best practice Conda channel [https://conda.anaconda.org/bioconda/noarch].
+.. INFO: Requirement [ete3@3.1.2] matches target in best practice Conda channel [https://conda.anaconda.org/conda-forge/noarch].

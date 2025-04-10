@@ -1,0 +1,13 @@
+Linting tool /home/maria/workspace/FROGS-wrappers_dev/tools/frogs/biom_to_tsv.xml
+.. CHECK (TestsNoValid): 1 test(s) found.
+.. INFO (OutputsNumber): 2 outputs found.
+.. INFO (InputsNum): Found 3 input parameters.
+.. CHECK (HelpPresent): Tool contains help section.
+.. CHECK (HelpValidRST): Help contains valid reStructuredText.
+.. CHECK (ToolIDValid): Tool defines an id [FROGS_biom_to_tsv].
+.. CHECK (ToolNameValid): Tool defines a name [FROGS BIOM to TSV].
+.. CHECK (ToolProfileValid): Tool specifies profile version [20.05].
+.. CHECK (ToolVersionValid): Tool defines a version [4.2.0+galaxy1].
+.. INFO (CommandInfo): Tool contains a command.
+.. CHECK (CitationsFound): Found 2 citations.
+.. INFO: Requirement [frogs@4.2.0] matches target in best practice Conda channel [https://conda.anaconda.org/bioconda/linux-64].

@@ -1,0 +1,14 @@
+Linting tool /home/maria/workspace/FROGS-wrappers_dev/tools/frogs/cluster_filters.xml
+.. CHECK (TestsNoValid): 1 test(s) found.
+.. INFO (OutputsNumber): 4 outputs found.
+.. INFO (InputsNum): Found 13 input parameters.
+.. CHECK (HelpPresent): Tool contains help section.
+.. CHECK (HelpValidRST): Help contains valid reStructuredText.
+.. CHECK (ToolIDValid): Tool defines an id [FROGS_cluster_filters].
+.. CHECK (ToolNameValid): Tool defines a name [FROGS_4 Cluster filters].
+.. CHECK (ToolProfileLegacy): Tool targets 16.01 Galaxy profile.
+.. CHECK (ToolVersionValid): Tool defines a version [4.2.0+galaxy1].
+.. INFO (CommandInfo): Tool contains a command.
+.. CHECK (CitationsFound): Found 2 citations.
+.. WARNING: Requirement [blast@2.10] doesn't exactly match available version [2.16.0] in best practice Conda channel [https://conda.anaconda.org/bioconda/linux-64].
+.. INFO: Requirement [frogs@4.2.0] matches target in best practice Conda channel [https://conda.anaconda.org/bioconda/linux-64].

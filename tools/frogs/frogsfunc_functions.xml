@@ -17,16 +17,18 @@
 -->
 <tool id="FROGSFUNC_step2_functions" name="FROGSFUNC_2_functions" version= "@TOOL_VERSION@+galaxy@VERSION_SUFFIX@">
     <description>Calculates functions abundances in each sample. </description>
-    <macros>
-            <import>macros.xml</import>
-    </macros>
-    <expand macro="xrefs"/>
-    <expand macro="requirements_frogsfunc" />
+
+  <macros>
+        <import>macros.xml</import>
+  </macros>
+
+  <expand macro="requirements_frogsfunc" />
+
+
     <stdio>
         <exit_code range="1:" />
         <exit_code range=":-1" />
     </stdio>
-    <code file="functions_validator.py" />
     <command >
        frogsfunc_functions.py
             @CPUS@
@@ -77,6 +79,7 @@
 				<column name='path' index='2' />
 				<column name='traits' index='3' />
                 <filter type="param_value" ref="category" column="0" />   
+ 		<validator type="expression" message="'EC' is the default database used by PICRUSt2. 'EC' or 'KO' must be at least selected. Other tables are optionnal">"EC" in value or "KO" in value</validator>               
             </options>
         </param>
         <param argument="--max-nsti" type="float" label="NSTI cut-off" help="Any sequence with an NSTI above this threshold will be out. (default: 2)" value="2" min="0" optional="false" />
@@ -138,12 +141,12 @@
 
 
     <tests>
-        <test>
+        <test expect_num_outputs="5">
             <param name="input_fasta" value="references/25-frogsfunc_placeseqs.fasta" />
             <param name="input_biom" value="references/25-frogsfunc_placeseqs.biom" />
             <param name="input_tree" value="references/25-frogsfunc_placeseqs_tree.nwk" />
             <param name="input_marker" value="references/25-frogsfunc_copynumbers_marker.tsv" />
-            <param name="category.value" value="frogs_picrust2_functions" />
+            <param name="category" value="frogs_picrust2_functions" />
             <param name="functions" value="EC" />
             <param name="max_nsti" value="2" />
 

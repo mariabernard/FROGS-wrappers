@@ -1,0 +1,9 @@
+deseq2_preprocess.py
+deseq2_visualisation.py
+phyloseq_alpha_diversity.py ==> ok
+phyloseq_beta_diversity.py  ==> ok noms des matrices moches ... c'était déjà comme ça avant ?
+phyloseq_clustering.py      ==> ok
+phyloseq_composition.py     ==> ok
+phyloseq_import_data.py     ==> ok
+phyloseq_manova.py          ==> ok
+phyloseq_structure.py       ==> ok

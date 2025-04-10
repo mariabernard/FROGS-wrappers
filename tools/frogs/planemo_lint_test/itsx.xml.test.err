@@ -1,0 +1,805 @@
+galaxy.util.commands WARNING: Passing program arguments as a string may be a security hazard if combined with untrusted input
+Clonage dans '/tmp/tmpii1pbxtf/galaxy-dev'...
+Mise à jour des fichiers:  44% (3270/7360)Mise à jour des fichiers:  45% (3312/7360)Mise à jour des fichiers:  46% (3386/7360)Mise à jour des fichiers:  47% (3460/7360)Mise à jour des fichiers:  48% (3533/7360)Mise à jour des fichiers:  49% (3607/7360)Mise à jour des fichiers:  50% (3680/7360)Mise à jour des fichiers:  51% (3754/7360)Mise à jour des fichiers:  52% (3828/7360)Mise à jour des fichiers:  53% (3901/7360)Mise à jour des fichiers:  54% (3975/7360)Mise à jour des fichiers:  55% (4048/7360)Mise à jour des fichiers:  56% (4122/7360)Mise à jour des fichiers:  57% (4196/7360)Mise à jour des fichiers:  58% (4269/7360)Mise à jour des fichiers:  59% (4343/7360)Mise à jour des fichiers:  60% (4416/7360)Mise à jour des fichiers:  61% (4490/7360)Mise à jour des fichiers:  62% (4564/7360)Mise à jour des fichiers:  63% (4637/7360)Mise à jour des fichiers:  64% (4711/7360)Mise à jour des fichiers:  65% (4784/7360)Mise à jour des fichiers:  66% (4858/7360)Mise à jour des fichiers:  67% (4932/7360)Mise à jour des fichiers:  68% (5005/7360)Mise à jour des fichiers:  69% (5079/7360)Mise à jour des fichiers:  70% (5152/7360)Mise à jour des fichiers:  71% (5226/7360)Mise à jour des fichiers:  72% (5300/7360)Mise à jour des fichiers:  73% (5373/7360)Mise à jour des fichiers:  74% (5447/7360)Mise à jour des fichiers:  75% (5520/7360)Mise à jour des fichiers:  76% (5594/7360)Mise à jour des fichiers:  77% (5668/7360)Mise à jour des fichiers:  78% (5741/7360)Mise à jour des fichiers:  79% (5815/7360)Mise à jour des fichiers:  80% (5888/7360)Mise à jour des fichiers:  81% (5962/7360)Mise à jour des fichiers:  82% (6036/7360)Mise à jour des fichiers:  83% (6109/7360)Mise à jour des fichiers:  84% (6183/7360)Mise à jour des fichiers:  85% (6256/7360)Mise à jour des fichiers:  86% (6330/7360)Mise à jour des fichiers:  87% (6404/7360)Mise à jour des fichiers:  88% (6477/7360)Mise à jour des fichiers:  89% (6551/7360)Mise à jour des fichiers:  90% (6624/7360)Mise à jour des fichiers:  91% (6698/7360)Mise à jour des fichiers:  92% (6772/7360)Mise à jour des fichiers:  93% (6845/7360)Mise à jour des fichiers:  94% (6919/7360)Mise à jour des fichiers:  95% (6992/7360)Mise à jour des fichiers:  96% (7066/7360)Mise à jour des fichiers:  97% (7140/7360)Mise à jour des fichiers:  98% (7213/7360)Mise à jour des fichiers:  99% (7287/7360)Mise à jour des fichiers: 100% (7360/7360)Mise à jour des fichiers: 100% (7360/7360), fait.
+galaxy.util.commands WARNING: Passing program arguments as a string may be a security hazard if combined with untrusted input
+galaxy.util.commands WARNING: Passing program arguments as a string may be a security hazard if combined with untrusted input
+Option master_api_key has been deprecated in favor of bootstrap_admin_api_key
+Trying to resolve path for the 'data_manager_config_file' option but it's empty/None
+/tmp/tmpii1pbxtf/galaxy-dev/lib/galaxy/dependencies/__init__.py:74: FutureWarning: The behavior of this method will change in future versions. Use specific 'len(elem)' or 'elem is not None' test instead.
+  if plugins_elem:
+supervisord is not running
+supervisord is not running
+supervisord is not running
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:30,962 [pN:main,p:57801,tN:MainThread] Loaded tool id: FROGS_itsx, version: 4.2.0+galaxy1 into tool panel..
+galaxy.tools WARNING 2025-04-04 16:22:30,963 [pN:main,p:57801,tN:MainThread] The default shed tool config file (/tmp/tmpii1pbxtf/shed_tool_conf.xml) has been added to the tool_config_file option, if this is not the desired behavior, please set shed_tool_config_file to your primary shed-enabled tool config file
+galaxy.tool_util.toolbox.base INFO 2025-04-04 16:22:30,964 [pN:main,p:57801,tN:MainThread] Parsing the tool configuration /tmp/tmpii1pbxtf/shed_tools_conf.xml
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:30,964 [pN:main,p:57801,tN:MainThread] Tool path for shed tool configuration /tmp/tmpii1pbxtf/shed_tools_conf.xml is /tmp/tmpii1pbxtf/shed_tools
+galaxy.tools WARNING 2025-04-04 16:22:30,964 [pN:main,p:57801,tN:MainThread] The default shed tool config file (/tmp/tmpii1pbxtf/shed_tool_conf.xml) has been added to the tool_config_file option, if this is not the desired behavior, please set shed_tool_config_file to your primary shed-enabled tool config file
+galaxy.tool_util.toolbox.base INFO 2025-04-04 16:22:30,965 [pN:main,p:57801,tN:MainThread] Parsing the tool configuration /tmp/tmpii1pbxtf/empty_tool_conf.xml
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:30,965 [pN:main,p:57801,tN:MainThread] Tool path for tool configuration /tmp/tmpii1pbxtf/empty_tool_conf.xml is None
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:30,965 [pN:main,p:57801,tN:MainThread] Reading tools from config files finished (34.198 ms)
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:30,969 [pN:main,p:57801,tN:MainThread] Loaded tool id: upload1, version: 1.1.7 into tool panel..
+galaxy.tool_util.toolbox.views.edam DEBUG 2025-04-04 16:22:30,969 [pN:main,p:57801,tN:MainThread] Loading EDAM tool panel finished (2.675 ms)
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:30,970 [pN:main,p:57801,tN:MainThread] Loaded tool id: upload1, version: 1.1.7 into tool panel..
+galaxy.tool_util.toolbox.views.edam DEBUG 2025-04-04 16:22:30,970 [pN:main,p:57801,tN:MainThread] Loading EDAM tool panel finished (1.335 ms)
+galaxy.tool_util.toolbox.integrated_panel DEBUG 2025-04-04 16:22:30,971 [pN:main,p:57801,tN:MainThread] Writing integrated tool panel config file to '/tmp/tmpii1pbxtf/integrated_tool_panel_conf.xml'
+galaxy.tools.search WARNING 2025-04-04 16:22:38,638 [pN:main,p:57801,tN:MainThread] Index at '/tmp/tmpii1pbxtf/galaxy-dev/database/tool_search_index/default' uses outdated schema, creating a new index
+galaxy.tools.search WARNING 2025-04-04 16:22:38,639 [pN:main,p:57801,tN:MainThread] Index at '/tmp/tmpii1pbxtf/galaxy-dev/database/tool_search_index/ontology:edam_operations' uses outdated schema, creating a new index
+galaxy.tools.search WARNING 2025-04-04 16:22:38,640 [pN:main,p:57801,tN:MainThread] Index at '/tmp/tmpii1pbxtf/galaxy-dev/database/tool_search_index/ontology:edam_topics' uses outdated schema, creating a new index
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,643 [pN:main,p:57801,tN:MainThread] Loaded display application 'ucsc_bam' for datatype 'bam', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,644 [pN:main,p:57801,tN:MainThread] Loaded display application 'ensembl_bam' for datatype 'bam', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,645 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "igv_broad_genomes".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,646 [pN:main,p:57801,tN:MainThread] Loaded display application 'igv_bam' for datatype 'bam', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,646 [pN:main,p:57801,tN:MainThread] Loaded display application 'igb_bam' for datatype 'bam', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,646 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "bam_iobio".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,646 [pN:main,p:57801,tN:MainThread] Loaded display application 'iobio_bam' for datatype 'bam', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,647 [pN:main,p:57801,tN:MainThread] Loaded display application 'igb_bed' for datatype 'bed', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,647 [pN:main,p:57801,tN:MainThread] Loaded display application 'igb_bedgraph' for datatype 'bedgraph', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,647 [pN:main,p:57801,tN:MainThread] Loaded display application 'ucsc_bigbed' for datatype 'bigbed', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,648 [pN:main,p:57801,tN:MainThread] Loaded display application 'igb_bb' for datatype 'bigbed', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,648 [pN:main,p:57801,tN:MainThread] Loaded display application 'ucsc_bigwig' for datatype 'bigwig', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,649 [pN:main,p:57801,tN:MainThread] Loaded display application 'igb_bigwig' for datatype 'bigwig', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,649 [pN:main,p:57801,tN:MainThread] Loaded display application 'igv_bigwig' for datatype 'bigwig', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,650 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "intermine_simple_display".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,650 [pN:main,p:57801,tN:MainThread] Loaded display application 'intermine_simple' for datatype 'intermine_tabular', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,650 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "igv_broad_genomes".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,650 [pN:main,p:57801,tN:MainThread] Loaded display application 'igv_fasta' for datatype 'fasta', inherit=True.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,651 [pN:main,p:57801,tN:MainThread] Loaded display application 'ensembl_gff' for datatype 'gff', inherit=True.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,652 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "igv_broad_genomes".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,652 [pN:main,p:57801,tN:MainThread] Loaded display application 'igv_gff' for datatype 'gff', inherit=True.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,652 [pN:main,p:57801,tN:MainThread] Loaded display application 'igb_gtf' for datatype 'gtf', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,653 [pN:main,p:57801,tN:MainThread] Loaded display application 'ensembl_interval' for datatype 'interval', inherit=True.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,654 [pN:main,p:57801,tN:MainThread] Loaded display application 'gbrowse_interval_as_bed' for datatype 'interval', inherit=True.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,655 [pN:main,p:57801,tN:MainThread] Loaded display application 'rviewer_interval' for datatype 'interval', inherit=True.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,655 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "igv_broad_genomes".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,655 [pN:main,p:57801,tN:MainThread] Loaded display application 'igv_interval_as_bed' for datatype 'interval', inherit=True.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,656 [pN:main,p:57801,tN:MainThread] Loaded display application 'avivator' for datatype 'tiff', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,656 [pN:main,p:57801,tN:MainThread] Loaded display application 'avivator' for datatype 'ome.tiff', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,656 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "q2view_display".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,656 [pN:main,p:57801,tN:MainThread] Loaded display application 'q2view' for datatype 'qza', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,656 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "q2view_display".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,657 [pN:main,p:57801,tN:MainThread] Loaded display application 'q2view' for datatype 'qzv', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,657 [pN:main,p:57801,tN:MainThread] Loaded display application 'ucsc_maf_customtrack' for datatype 'mafcustomtrack', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,657 [pN:main,p:57801,tN:MainThread] Loaded display application 'minerva_tabular' for datatype 'tabular', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,658 [pN:main,p:57801,tN:MainThread] Loaded display application 'ucsc_vcf' for datatype 'vcf', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,659 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "igv_broad_genomes".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,659 [pN:main,p:57801,tN:MainThread] Loaded display application 'igv_vcf' for datatype 'vcf', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,659 [pN:main,p:57801,tN:MainThread] Loaded display application 'rviewer_vcf' for datatype 'vcf', inherit=True.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,659 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "vcf_iobio".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,659 [pN:main,p:57801,tN:MainThread] Loaded display application 'iobio_vcf' for datatype 'vcf', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,660 [pN:main,p:57801,tN:MainThread] Loaded display application 'igb_wig' for datatype 'wig', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,660 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "igv_broad_genomes".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,660 [pN:main,p:57801,tN:MainThread] Loaded display application 'igv_vcf' for datatype 'vcf_bgzip', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,661 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "igv_broad_genomes".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,661 [pN:main,p:57801,tN:MainThread] Loaded display application 'igv_genbank' for datatype 'genbank', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,662 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "biom_simple_display".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,662 [pN:main,p:57801,tN:MainThread] Loaded display application 'biom_simple' for datatype 'biom1', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,663 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "icn3d_simple_display".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,663 [pN:main,p:57801,tN:MainThread] Loaded display application 'icn3d_simple' for datatype 'sdf', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,663 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "icn3d_simple_display".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,664 [pN:main,p:57801,tN:MainThread] Loaded display application 'icn3d_simple' for datatype 'mol2', inherit=False.
+galaxy.datatypes.display_applications.application ERROR 2025-04-04 16:22:38,664 [pN:main,p:57801,tN:MainThread] Error loading a set of Dynamic Display Application links: Unable to find data table named "icn3d_simple_display".
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,665 [pN:main,p:57801,tN:MainThread] Loaded display application 'icn3d_simple' for datatype 'pdb', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,665 [pN:main,p:57801,tN:MainThread] Loaded display application 'ucsc_trackhub' for datatype 'trackhub', inherit=False.
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,666 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_interval' to datatype 'bed'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,666 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'bed'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,666 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'rviewer_interval' to datatype 'bed'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_interval_as_bed' to datatype 'bed'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_interval' to datatype 'bedgraph'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'bedgraph'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'rviewer_interval' to datatype 'bedgraph'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_interval_as_bed' to datatype 'bedgraph'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_interval' to datatype 'bedstrict'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'bedstrict'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'rviewer_interval' to datatype 'bedstrict'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_interval_as_bed' to datatype 'bedstrict'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_interval' to datatype 'bed6'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'bed6'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'rviewer_interval' to datatype 'bed6'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,667 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_interval_as_bed' to datatype 'bed6'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,668 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_interval' to datatype 'bed12'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,668 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'bed12'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,668 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'rviewer_interval' to datatype 'bed12'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,668 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_interval_as_bed' to datatype 'bed12'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,668 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_interval' to datatype 'probed'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,668 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'probed'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,668 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'rviewer_interval' to datatype 'probed'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,668 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_interval_as_bed' to datatype 'probed'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,668 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_interval' to datatype 'chrint'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,669 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'chrint'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,669 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'rviewer_interval' to datatype 'chrint'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,669 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_interval_as_bed' to datatype 'chrint'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,669 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_fasta' to datatype 'fasta.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,669 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_fasta' to datatype 'a3m'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,669 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_gff' to datatype 'gff3'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,669 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_gff' to datatype 'gff3'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,670 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_gff' to datatype 'gff3.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,670 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_gff' to datatype 'gff3.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,670 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_gff' to datatype 'gff3.bz2'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,670 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_gff' to datatype 'gff3.bz2'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,670 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_gff' to datatype 'gtf'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,670 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_gff' to datatype 'gtf'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,670 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_gff' to datatype 'gtf.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,670 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_gff' to datatype 'gtf.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,672 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_interval' to datatype 'encodepeak'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,672 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'encodepeak'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'rviewer_interval' to datatype 'encodepeak'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_interval_as_bed' to datatype 'encodepeak'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_fasta' to datatype 'sequences'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_interval' to datatype 'interval_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'interval_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'rviewer_interval' to datatype 'interval_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_interval_as_bed' to datatype 'interval_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_interval' to datatype 'juicer_medium_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'juicer_medium_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'rviewer_interval' to datatype 'juicer_medium_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_interval_as_bed' to datatype 'juicer_medium_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_interval' to datatype 'bed_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'bed_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'rviewer_interval' to datatype 'bed_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_interval_as_bed' to datatype 'bed_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'ensembl_interval' to datatype 'gff_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'gbrowse_interval_as_bed' to datatype 'gff_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'rviewer_interval' to datatype 'gff_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,673 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_interval_as_bed' to datatype 'gff_tabix.gz'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,674 [pN:main,p:57801,tN:MainThread] Adding inherited display application 'igv_fasta' to datatype 'mothur.align'
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,679 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,680 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,682 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,684 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,686 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,687 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,689 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_Bam_Bai_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,690 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bam_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,691 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bam_to_qname_sorted_bam
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,692 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bam_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,694 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bam_to_coodinate_sorted_bam
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,695 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bam_to_qname_sorted_bam
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,698 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_cram_to_bam_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,699 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bed_to_gff_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,706 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,711 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,713 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,715 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bed_to_fli_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,717 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bedgraph_to_bigwig
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,719 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_len_to_linecount
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,722 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_parquet_to_csv
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,725 [pN:main,p:57801,tN:MainThread] Loaded converter: bigwigtowig
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,728 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,730 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,731 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,732 [pN:main,p:57801,tN:MainThread] Loaded converter: csv_to_tabular
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,734 [pN:main,p:57801,tN:MainThread] Loaded converter: tabular_to_csv
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,735 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_fasta_to_tabular
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,736 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_fasta_to_bowtie_base_index
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,737 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_fasta_to_bowtie_color_index
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,739 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_fasta_to_2bit
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,740 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_fasta_to_len
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,741 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_fasta_to_fai
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,742 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,743 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,744 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,746 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,747 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,748 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,749 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,751 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,753 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,754 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,756 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,757 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,758 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,759 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,760 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,762 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,763 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,765 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,766 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,767 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,769 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,770 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,771 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gff_to_bed_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,772 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gff_to_interval_index_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,773 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,774 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gff_to_fli_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,777 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,779 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,781 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,782 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,783 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,784 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gff_to_interval_index_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,785 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,786 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,788 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,789 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_bed_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,790 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_bedstrict_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,791 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_bed6_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,792 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_bed12_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,794 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,796 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,797 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,798 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_picard_interval_list_to_bed6
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,799 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_archive_to_directory
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,800 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_archive_to_directory
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,801 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_archive_to_directory
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,802 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_archive_to_directory
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,804 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,806 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,807 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,809 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,811 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,813 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,814 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,816 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,817 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,819 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,821 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,822 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_maf_to_fasta_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,824 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_maf_to_interval_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,826 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,829 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,831 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,833 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,836 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,837 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_sam_to_unsorted_bam
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,838 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bam_to_coodinate_sorted_bam
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,839 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bam_to_qname_sorted_bam
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,841 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_sam_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,843 [pN:main,p:57801,tN:MainThread] Loaded converter: tabular_to_dbnsfp
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,846 [pN:main,p:57801,tN:MainThread] Loaded converter: tabular_to_csv
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,848 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,850 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,855 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,856 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_vcf_to_vcf_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,859 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,860 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,862 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,863 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bcf_uncompressed_to_bcf
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,865 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_bcf_uncompressed_to_bcf
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,866 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_wig_to_bigwig
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,867 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_wiggle_to_interval_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,869 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_vcf_bgzip_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,870 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,871 [pN:main,p:57801,tN:MainThread] Loaded converter: lped2fpedconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,872 [pN:main,p:57801,tN:MainThread] Loaded converter: lped2pbedconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,873 [pN:main,p:57801,tN:MainThread] Loaded converter: pbed2lpedconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,874 [pN:main,p:57801,tN:MainThread] Loaded converter: pbed2ldindepconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,877 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,878 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,883 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_biom
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,886 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_biom
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,895 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,904 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,913 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,916 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_SMILES_to_MOL
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,928 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,930 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_smiles_to_smiles
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,938 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,946 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,953 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,959 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,966 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,971 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,973 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_inchi_to_mol
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,980 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,987 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:38,994 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,001 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,008 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,024 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,048 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,058 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,064 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,069 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,070 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_mol2_to_mol
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,097 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,103 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_cml_to_smiles
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,117 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,125 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,131 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,132 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_Pdb_to_Gro_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,134 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_mdconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,137 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_mdconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,139 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_mdconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,142 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_mdconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,144 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_mdconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,146 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_mdconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,148 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_Gro_to_Pdb_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,149 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_ref_to_seq_taxomony
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,150 [pN:main,p:57801,tN:MainThread] Loaded converter: CONVERTER_neostorezip_to_neostore
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:39,155 [pN:main,p:57801,tN:MainThread] Loaded external metadata tool: __SET_METADATA__
+galaxy.tools.special_tools DEBUG 2025-04-04 16:22:39,167 [pN:main,p:57801,tN:MainThread] Loaded history export tool: __EXPORT_HISTORY__
+galaxy.tools.special_tools DEBUG 2025-04-04 16:22:39,171 [pN:main,p:57801,tN:MainThread] Loaded history export to uri tool: __EXPORT_HISTORY_TO_URI__
+galaxy.tools.special_tools DEBUG 2025-04-04 16:22:39,175 [pN:main,p:57801,tN:MainThread] Loaded history import tool: __IMPORT_HISTORY__
+galaxy.tools.special_tools DEBUG 2025-04-04 16:22:39,179 [pN:main,p:57801,tN:MainThread] Loaded data fetch tool: __DATA_FETCH__
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,183 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: PCA_3Dplot
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,185 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: aequatus
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,186 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: annotate_image
+galaxy.visualization.plugins.config_parser INFO 2025-04-04 16:22:39,187 [pN:main,p:57801,tN:MainThread] template syntax is deprecated: use entry_point instead
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,187 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: chiraviz
+galaxy.visualization.plugins.config_parser INFO 2025-04-04 16:22:39,187 [pN:main,p:57801,tN:MainThread] template syntax is deprecated: use entry_point instead
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,187 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: csg
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,188 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: cytoscape
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,189 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: drawrna
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,189 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: editor
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,190 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: example
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,190 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: fits_graph_viewer
+galaxy.visualization.plugins.config_parser INFO 2025-04-04 16:22:39,191 [pN:main,p:57801,tN:MainThread] template syntax is deprecated: use entry_point instead
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,191 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: fits_image_viewer
+galaxy.visualization.plugins.config_parser INFO 2025-04-04 16:22:39,192 [pN:main,p:57801,tN:MainThread] template syntax is deprecated: use entry_point instead
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,192 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: graphviz
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,193 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: h5web
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,195 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: heatmap_cluster
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,196 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: heatmap_default
+galaxy.visualization.plugins.config_parser INFO 2025-04-04 16:22:39,197 [pN:main,p:57801,tN:MainThread] template syntax is deprecated: use entry_point instead
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,197 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: hivtrace
+galaxy.visualization.plugins.config_parser INFO 2025-04-04 16:22:39,197 [pN:main,p:57801,tN:MainThread] template syntax is deprecated: use entry_point instead
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,198 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: hyphyvision
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,205 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: jqplot_bar
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,209 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: jqplot_box
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,213 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: jqplot_histogram
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,216 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: jqplot_line
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,219 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: jqplot_scatter
+galaxy.visualization.plugins.config_parser INFO 2025-04-04 16:22:39,220 [pN:main,p:57801,tN:MainThread] template syntax is deprecated: use entry_point instead
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,220 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: audio_player
+galaxy.visualization.plugins.config_parser INFO 2025-04-04 16:22:39,221 [pN:main,p:57801,tN:MainThread] template syntax is deprecated: use entry_point instead
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,221 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: video_player
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,222 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: msa
+galaxy.visualization.plugins.config_parser INFO 2025-04-04 16:22:39,223 [pN:main,p:57801,tN:MainThread] template syntax is deprecated: use entry_point instead
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,223 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: mvpapp
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,224 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: ngl
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,225 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nora
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,227 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_bar
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,229 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_bar_stacked
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,231 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_histogram
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,233 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_histogram_discrete
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,234 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_horizontal
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,236 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_horizontal_stacked
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,238 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_line
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,240 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_line_focus
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,242 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_pie
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,243 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_scatter
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,245 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_stackedarea
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,247 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_stackedarea_full
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,249 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: nvd3_stackedarea_stream
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,250 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: openlayers
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,251 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: openseadragon
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,251 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: phylocanvas
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,252 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: pv
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,253 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: scatterplot
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,253 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: tiffviewer
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,254 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: trackster
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,254 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: ts_visjs
+galaxy.visualization.plugins.config_parser INFO 2025-04-04 16:22:39,255 [pN:main,p:57801,tN:MainThread] template syntax is deprecated: use entry_point instead
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,255 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: unipept
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,255 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: venn
+galaxy.visualization.plugins.registry INFO 2025-04-04 16:22:39,256 [pN:main,p:57801,tN:MainThread] VisualizationsRegistry, loaded plugin: vizarr
+galaxy.tours._impl INFO 2025-04-04 16:22:39,264 [pN:main,p:57801,tN:MainThread] Loaded tour 'core.windows'
+galaxy.tours._impl INFO 2025-04-04 16:22:39,277 [pN:main,p:57801,tN:MainThread] Loaded tour 'core.galaxy_ui'
+galaxy.tours._impl INFO 2025-04-04 16:22:39,288 [pN:main,p:57801,tN:MainThread] Loaded tour 'core.deferred'
+galaxy.tours._impl INFO 2025-04-04 16:22:39,297 [pN:main,p:57801,tN:MainThread] Loaded tour 'core.history'
+galaxy.workflow.scheduling_manager INFO 2025-04-04 16:22:39,320 [pN:main,p:57801,tN:MainThread] No workflow schedulers plugin config file defined, using default scheduler.
+galaxy.web_stack.handlers INFO 2025-04-04 16:22:39,321 [pN:main,p:57801,tN:MainThread] WorkflowSchedulingManager: No job handler assignment method is set, defaulting to 'HANDLER_ASSIGNMENT_METHODS.DB_SKIP_LOCKED', set the `assign_with` attribute on <handlers> to override the default
+galaxy.workflow.scheduling_manager DEBUG 2025-04-04 16:22:39,321 [pN:main,p:57801,tN:MainThread] Starting workflow schedulers
+galaxy.app INFO 2025-04-04 16:22:39,328 [pN:main,p:57801,tN:MainThread] Galaxy app startup finished (18478.696 ms)
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,346 [pN:main,p:57801,tN:MainThread] Enabling 'data_manager' controller, class: DataManager
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,351 [pN:main,p:57801,tN:MainThread] Enabling 'forms' controller, class: Forms
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,419 [pN:main,p:57801,tN:MainThread] Enabling 'admin_toolshed' controller, class: AdminGalaxy
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,419 [pN:main,p:57801,tN:MainThread] Enabling 'admin_toolshed' controller, class: AdminToolshed
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,420 [pN:main,p:57801,tN:MainThread] Enabling 'admin' controller, class: AdminGalaxy
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,435 [pN:main,p:57801,tN:MainThread] Enabling 'history' controller, class: HistoryController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,438 [pN:main,p:57801,tN:MainThread] Enabling 'root' controller, class: RootController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,438 [pN:main,p:57801,tN:MainThread] Enabling 'error' controller, class: Error
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,442 [pN:main,p:57801,tN:MainThread] Enabling 'user' controller, class: User
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,456 [pN:main,p:57801,tN:MainThread] Enabling 'page' controller, class: PageController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,465 [pN:main,p:57801,tN:MainThread] Enabling 'async' controller, class: ASync
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,472 [pN:main,p:57801,tN:MainThread] Enabling 'tool_runner' controller, class: ToolRunner
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,474 [pN:main,p:57801,tN:MainThread] Enabling 'shed_tool_static' controller, class: ShedToolStatic
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,570 [pN:main,p:57801,tN:MainThread] Enabling 'dataset' controller, class: DatasetInterface
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,573 [pN:main,p:57801,tN:MainThread] Enabling 'authnz' controller, class: JSAppLauncher
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,574 [pN:main,p:57801,tN:MainThread] Enabling 'authnz' controller, class: OIDC
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,576 [pN:main,p:57801,tN:MainThread] Enabling 'tag' controller, class: TagsController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,583 [pN:main,p:57801,tN:MainThread] Enabling 'workflow' controller, class: WorkflowController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:39,585 [pN:main,p:57801,tN:MainThread] Enabling 'visualization' controller, class: VisualizationController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:40,995 [pN:main,p:57801,tN:MainThread] Enabling 'forms' API controller, class: FormDefinitionAPIController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:41,226 [pN:main,p:57801,tN:MainThread] Enabling 'authenticate' API controller, class: AuthenticationController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:41,384 [pN:main,p:57801,tN:MainThread] Enabling 'tool_shed_repositories' API controller, class: ToolShedRepositoriesController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:42,768 [pN:main,p:57801,tN:MainThread] Enabling 'trs_consumer' API controller, class: TrsConsumeAPIController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:43,263 [pN:main,p:57801,tN:MainThread] Enabling 'page_revisions' API controller, class: PageRevisionsController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:43,265 [pN:main,p:57801,tN:MainThread] Enabling 'job_ports' API controller, class: JobPortsAPIController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:43,273 [pN:main,p:57801,tN:MainThread] Enabling 'library_datasets' API controller, class: LibraryDatasetsController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:43,275 [pN:main,p:57801,tN:MainThread] Enabling 'sanitize_allow' API controller, class: SanitizeAllowController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:46,748 [pN:main,p:57801,tN:MainThread] Enabling 'webhooks' API controller, class: WebhooksController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:46,750 [pN:main,p:57801,tN:MainThread] Enabling 'job_files' API controller, class: JobFilesAPIController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:46,752 [pN:main,p:57801,tN:MainThread] Enabling 'tool_dependencies' API controller, class: ToolDependenciesAPIController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:47,245 [pN:main,p:57801,tN:MainThread] Enabling 'jobs' API controller, class: JobController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:47,450 [pN:main,p:57801,tN:MainThread] Enabling 'history_content_provenance' API controller, class: HDAProvenanceController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:47,450 [pN:main,p:57801,tN:MainThread] Enabling 'ldda_provenance' API controller, class: LDDAProvenanceController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:47,452 [pN:main,p:57801,tN:MainThread] Enabling 'trs_search' API controller, class: TrsSearchAPIController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:47,453 [pN:main,p:57801,tN:MainThread] Enabling 'dynamic_tools' API controller, class: DynamicToolsController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:47,905 [pN:main,p:57801,tN:MainThread] Enabling 'tool_entry_points' API controller, class: ToolEntryPointsAPIController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:47,907 [pN:main,p:57801,tN:MainThread] Enabling 'plugins' API controller, class: PluginsController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:48,441 [pN:main,p:57801,tN:MainThread] Enabling 'users' API controller, class: UserAPIController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:48,443 [pN:main,p:57801,tN:MainThread] Enabling 'toolshed' API controller, class: ToolShedController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:49,485 [pN:main,p:57801,tN:MainThread] Enabling 'history_dataset_extended_metadata' API controller, class: HistoryDatasetExtendMetadataController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:49,485 [pN:main,p:57801,tN:MainThread] Enabling 'library_dataset_extended_metadata' API controller, class: LibraryDatasetExtendMetadataController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:50,846 [pN:main,p:57801,tN:MainThread] Enabling 'workflows' API controller, class: WorkflowsAPIController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:51,010 [pN:main,p:57801,tN:MainThread] Enabling 'uploads' API controller, class: UploadsAPIController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:51,100 [pN:main,p:57801,tN:MainThread] Enabling 'tools' API controller, class: ToolsController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:51,109 [pN:main,p:57801,tN:MainThread] Enabling 'history_annotations' API controller, class: HistoryAnnotationsController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:51,109 [pN:main,p:57801,tN:MainThread] Enabling 'history_content_annotations' API controller, class: HistoryContentAnnotationsController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:51,109 [pN:main,p:57801,tN:MainThread] Enabling 'workflow_annotations' API controller, class: WorkflowAnnotationsController
+galaxy.web.framework.base DEBUG 2025-04-04 16:22:51,200 [pN:main,p:57801,tN:MainThread] Enabling 'container_resolution' API controller, class: ContainerResolutionAPIController
+galaxy.webapps.util DEBUG 2025-04-04 16:22:51,296 [pN:main,p:57801,tN:MainThread] Enabling 'paste.httpexceptions' middleware
+galaxy.webapps.util DEBUG 2025-04-04 16:22:51,298 [pN:main,p:57801,tN:MainThread] Enabling 'RemoteUser' middleware
+galaxy.webapps.util DEBUG 2025-04-04 16:22:51,298 [pN:main,p:57801,tN:MainThread] Enabling 'ErrorMiddleware' middleware
+galaxy.webapps.util DEBUG 2025-04-04 16:22:51,298 [pN:main,p:57801,tN:MainThread] Enabling 'TusMiddleware' middleware
+galaxy.webapps.util DEBUG 2025-04-04 16:22:51,298 [pN:main,p:57801,tN:MainThread] Enabling 'TusMiddleware' middleware
+galaxy.webapps.util DEBUG 2025-04-04 16:22:51,299 [pN:main,p:57801,tN:MainThread] Enabling 'XForwardedHostMiddleware' middleware
+galaxy.webapps.util DEBUG 2025-04-04 16:22:51,299 [pN:main,p:57801,tN:MainThread] Enabling 'RequestIDMiddleware' middleware
+galaxy.webapps.util DEBUG 2025-04-04 16:22:51,299 [pN:main,p:57801,tN:MainThread] Enabling 'build_url_map' middleware
+galaxy.webapps.galaxy.buildapp DEBUG 2025-04-04 16:22:51,299 [pN:main,p:57801,tN:MainThread] Prior to webapp return, Galaxy thread <_MainThread(MainThread, started 130336240187200)> is alive.
+galaxy.web_stack DEBUG 2025-04-04 16:22:58,920 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] server_name set to: main.1
+galaxy.jobs.manager DEBUG 2025-04-04 16:22:58,945 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Initializing job handler
+galaxy.jobs.handler INFO 2025-04-04 16:22:58,947 [pN:main.1,p:57864,tN:WorkflowRequestMonitor.monitor_thread] Handler job grabber initialized with 'HANDLER_ASSIGNMENT_METHODS.DB_SKIP_LOCKED' assignment method for handler 'main.1', tag(s): None, _default_
+galaxy.jobs INFO 2025-04-04 16:22:58,957 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Handler 'main.1' will load all configured runner plugins
+galaxy.jobs.runners.state_handler_factory DEBUG 2025-04-04 16:22:59,030 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded 'failure' state handler from module galaxy.jobs.runners.state_handlers.resubmit
+galaxy.jobs DEBUG 2025-04-04 16:22:59,030 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded job runner 'galaxy.jobs.runners.local:LocalJobRunner' as 'planemo_runner'
+galaxy.jobs.handler DEBUG 2025-04-04 16:22:59,031 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded job runners plugins: planemo_runner
+galaxy.jobs.runners DEBUG 2025-04-04 16:22:59,031 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Starting 4 LocalRunner workers
+galaxy.jobs.handler DEBUG 2025-04-04 16:22:59,034 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Handler queue starting for jobs assigned to handler: main.1
+galaxy.jobs.handler INFO 2025-04-04 16:22:59,059 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] Handler job grabber initialized with 'HANDLER_ASSIGNMENT_METHODS.DB_SKIP_LOCKED' assignment method for handler 'main.1', tag(s): 
+galaxy.jobs.handler INFO 2025-04-04 16:22:59,068 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] job handler queue started
+galaxy.jobs.handler INFO 2025-04-04 16:22:59,081 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] job handler stop queue started
+galaxy.queue_worker INFO 2025-04-04 16:22:59,098 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Binding and starting galaxy control worker for main.1
+galaxy.queue_worker DEBUG 2025-04-04 16:22:59,130 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Executing toolbox reload on 'main.1'
+galaxy.util WARNING 2025-04-04 16:22:59,145 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] directory not found: /tmp/tmpii1pbxtf/galaxy-dev/config/plugins/activities
+galaxy.tools WARNING 2025-04-04 16:22:59,155 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] The default shed tool config file (/tmp/tmpii1pbxtf/shed_tool_conf.xml) has been added to the tool_config_file option, if this is not the desired behavior, please set shed_tool_config_file to your primary shed-enabled tool config file
+galaxy.tool_util.toolbox.base INFO 2025-04-04 16:22:59,156 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Parsing the tool configuration /tmp/tmpii1pbxtf/tool_conf.xml
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:59,160 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Tool path for tool configuration /tmp/tmpii1pbxtf/tool_conf.xml is None
+galaxy.tools WARNING 2025-04-04 16:22:59,160 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] The default shed tool config file (/tmp/tmpii1pbxtf/shed_tool_conf.xml) has been added to the tool_config_file option, if this is not the desired behavior, please set shed_tool_config_file to your primary shed-enabled tool config file
+galaxy.tool_util.toolbox.base INFO 2025-04-04 16:22:59,160 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Parsing the tool configuration /tmp/tmpii1pbxtf/shed_tools_conf.xml
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:59,160 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Tool path for shed tool configuration /tmp/tmpii1pbxtf/shed_tools_conf.xml is /tmp/tmpii1pbxtf/shed_tools
+galaxy.tools WARNING 2025-04-04 16:22:59,160 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] The default shed tool config file (/tmp/tmpii1pbxtf/shed_tool_conf.xml) has been added to the tool_config_file option, if this is not the desired behavior, please set shed_tool_config_file to your primary shed-enabled tool config file
+galaxy.tool_util.toolbox.base INFO 2025-04-04 16:22:59,160 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Parsing the tool configuration /tmp/tmpii1pbxtf/empty_tool_conf.xml
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:59,160 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Tool path for tool configuration /tmp/tmpii1pbxtf/empty_tool_conf.xml is None
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:59,160 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Reading tools from config files finished (5.867 ms)
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:59,161 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded tool id: upload1, version: 1.1.7 into tool panel..
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:59,161 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loading tool panel finished (0.191 ms)
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:59,163 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded tool id: upload1, version: 1.1.7 into tool panel..
+galaxy.tool_util.toolbox.views.edam DEBUG 2025-04-04 16:22:59,163 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loading EDAM tool panel finished (2.285 ms)
+galaxy.tool_util.toolbox.base DEBUG 2025-04-04 16:22:59,164 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded tool id: upload1, version: 1.1.7 into tool panel..
+galaxy.tool_util.toolbox.views.edam DEBUG 2025-04-04 16:22:59,165 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loading EDAM tool panel finished (1.609 ms)
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,169 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,170 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,170 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,171 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,171 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,171 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,171 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_Bam_Bai_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,171 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bam_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,171 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bam_to_qname_sorted_bam
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,171 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bam_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,171 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bam_to_coodinate_sorted_bam
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,171 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bam_to_qname_sorted_bam
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,171 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_cram_to_bam_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,172 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bed_to_gff_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,172 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,172 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,172 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,172 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bed_to_fli_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,180 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bedgraph_to_bigwig
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,181 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_len_to_linecount
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,181 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_parquet_to_csv
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,181 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: bigwigtowig
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,181 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,181 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,181 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,182 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: csv_to_tabular
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,183 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: tabular_to_csv
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,183 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_fasta_to_tabular
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,183 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_fasta_to_bowtie_base_index
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,183 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_fasta_to_bowtie_color_index
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,183 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_fasta_to_2bit
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,183 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_fasta_to_len
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,183 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_fasta_to_fai
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,183 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,183 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,183 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,183 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,183 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,185 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,185 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,185 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,185 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,185 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,185 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,185 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,185 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,186 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,186 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,186 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,186 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,186 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,186 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_fastq_to_fqtoc0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,187 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,187 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,187 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,188 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gff_to_bed_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,189 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gff_to_interval_index_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,189 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,189 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gff_to_fli_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,189 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,189 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,189 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,190 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,190 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,190 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gff_to_interval_index_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,190 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,190 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,191 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,191 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_bed_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,191 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_bedstrict_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,191 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_bed6_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,191 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_bed12_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,191 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,191 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,191 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,191 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_picard_interval_list_to_bed6
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,191 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_archive_to_directory
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,191 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_archive_to_directory
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,192 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_archive_to_directory
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,192 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_archive_to_directory
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,192 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,192 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,192 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bz2_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,192 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,192 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_maf_to_fasta_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_maf_to_interval_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,195 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_sam_to_unsorted_bam
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bam_to_coodinate_sorted_bam
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bam_to_qname_sorted_bam
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_sam_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: tabular_to_dbnsfp
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: tabular_to_csv
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_vcf_to_vcf_bgzip_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_interval_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bed_gff_or_vcf_to_bigwig_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,196 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bcf_uncompressed_to_bcf
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_bcf_uncompressed_to_bcf
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_wig_to_bigwig
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_wiggle_to_interval_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_vcf_bgzip_to_tabix_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: lped2fpedconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: lped2pbedconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: pbed2lpedconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: pbed2ldindepconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_uncompressed_to_gz
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_gz_to_uncompressed
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_biom
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_biom
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,197 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_SMILES_to_MOL
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_smiles_to_smiles
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_inchi_to_mol
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,198 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_mol2_to_mol
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_cml_to_smiles
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_molecules
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_Pdb_to_Gro_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_mdconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_mdconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,199 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_mdconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,200 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_mdconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,200 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_mdconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,200 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_mdconvert
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,200 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_Gro_to_Pdb_0
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,200 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_ref_to_seq_taxomony
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,200 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded converter: CONVERTER_neostorezip_to_neostore
+galaxy.datatypes.registry DEBUG 2025-04-04 16:22:59,203 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded external metadata tool: __SET_METADATA__
+galaxy.tools.special_tools DEBUG 2025-04-04 16:22:59,205 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded history export tool: __EXPORT_HISTORY__
+galaxy.tools.special_tools DEBUG 2025-04-04 16:22:59,212 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded history export to uri tool: __EXPORT_HISTORY_TO_URI__
+galaxy.tools.special_tools DEBUG 2025-04-04 16:22:59,230 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded history import tool: __IMPORT_HISTORY__
+galaxy.tools.special_tools DEBUG 2025-04-04 16:22:59,235 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Loaded data fetch tool: __DATA_FETCH__
+galaxy.queue_worker INFO 2025-04-04 16:22:59,236 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Queuing async task rebuild_toolbox_search_index for main.1.
+galaxy.model.database_heartbeat DEBUG 2025-04-04 16:22:59,246 [pN:main.1,p:57864,tN:database_heartbeart_main.1.thread] main.1 is config watcher
+galaxy.queue_worker DEBUG 2025-04-04 16:22:59,364 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Toolbox reload (234.155 ms)
+galaxy.queue_worker INFO 2025-04-04 16:22:59,364 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Queuing async task rebuild_toolbox_search_index for main.1.
+galaxy.web_stack INFO 2025-04-04 16:22:59,380 [pN:main.1,p:57864,tN:Thread-2 (run_postfork)] Galaxy server instance 'main.1' is running
+
+Serving on http://127.0.0.1:53485
+
+python_multipart.multipart DEBUG 2025-04-04 16:22:59,646 [pN:main.1,p:57864,tN:MainThread] Calling on_field_start with no data
+python_multipart.multipart DEBUG 2025-04-04 16:22:59,646 [pN:main.1,p:57864,tN:MainThread] Calling on_field_name with data[0:4]
+python_multipart.multipart DEBUG 2025-04-04 16:22:59,647 [pN:main.1,p:57864,tN:MainThread] Calling on_field_data with data[5:57]
+python_multipart.multipart DEBUG 2025-04-04 16:22:59,647 [pN:main.1,p:57864,tN:MainThread] Calling on_field_end with no data
+python_multipart.multipart DEBUG 2025-04-04 16:22:59,647 [pN:main.1,p:57864,tN:MainThread] Calling on_end with no data
+galaxy.tools INFO 2025-04-04 16:22:59,838 [pN:main.1,p:57864,tN:WSGI_0] Validated and populated state for tool request (17.479 ms)
+galaxy.tools.actions.upload DEBUG 2025-04-04 16:22:59,842 [pN:main.1,p:57864,tN:WSGI_0] Persisted uploads (0.085 ms)
+galaxy.tools.actions.upload DEBUG 2025-04-04 16:22:59,902 [pN:main.1,p:57864,tN:WSGI_0] Checked uploads (60.082 ms)
+galaxy.tools.actions.upload DEBUG 2025-04-04 16:22:59,904 [pN:main.1,p:57864,tN:WSGI_0] Created upload job (2.205 ms)
+galaxy.tools.execute DEBUG 2025-04-04 16:22:59,904 [pN:main.1,p:57864,tN:WSGI_0] Tool upload1 created job None (62.738 ms)
+galaxy.web_stack.handlers INFO 2025-04-04 16:22:59,934 [pN:main.1,p:57864,tN:WSGI_0] (Job[id=1,tool_id=upload1]) Handler '_default_' assigned using 'HANDLER_ASSIGNMENT_METHODS.DB_SKIP_LOCKED' assignment method
+galaxy.tools.execute DEBUG 2025-04-04 16:22:59,947 [pN:main.1,p:57864,tN:WSGI_0] Created 1 job(s) for tool upload1 request (108.679 ms)
+galaxy.tools INFO 2025-04-04 16:23:00,018 [pN:main.1,p:57864,tN:WSGI_0] Validated and populated state for tool request (13.752 ms)
+galaxy.tools.actions.upload DEBUG 2025-04-04 16:23:00,021 [pN:main.1,p:57864,tN:WSGI_0] Persisted uploads (0.119 ms)
+galaxy.tools.actions.upload DEBUG 2025-04-04 16:23:00,097 [pN:main.1,p:57864,tN:WSGI_0] Checked uploads (74.948 ms)
+galaxy.tools.actions.upload DEBUG 2025-04-04 16:23:00,101 [pN:main.1,p:57864,tN:WSGI_0] Created upload job (3.790 ms)
+galaxy.tools.execute DEBUG 2025-04-04 16:23:00,101 [pN:main.1,p:57864,tN:WSGI_0] Tool upload1 created job None (79.605 ms)
+galaxy.web_stack.handlers INFO 2025-04-04 16:23:00,124 [pN:main.1,p:57864,tN:WSGI_0] (Job[id=2,tool_id=upload1]) Handler '_default_' assigned using 'HANDLER_ASSIGNMENT_METHODS.DB_SKIP_LOCKED' assignment method
+galaxy.tools.execute DEBUG 2025-04-04 16:23:00,140 [pN:main.1,p:57864,tN:WSGI_0] Created 1 job(s) for tool upload1 request (121.004 ms)
+galaxy.jobs.handler DEBUG 2025-04-04 16:23:00,350 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] Grabbed Job(s): 1, 2
+galaxy.queue_worker INFO 2025-04-04 16:23:00,394 [pN:main.1,p:57864,tN:Thread-1] Instance 'main.1' received 'rebuild_toolbox_search_index' task, executing now.
+galaxy.tools.search DEBUG 2025-04-04 16:23:00,395 [pN:main.1,p:57864,tN:Thread-1] Starting to build toolbox index of panel default.
+galaxy.jobs.mapper DEBUG 2025-04-04 16:23:00,406 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] (1) Mapped job to destination id: upload_dest
+galaxy.jobs.handler DEBUG 2025-04-04 16:23:00,412 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] (1) Dispatching to planemo_runner runner
+galaxy.tools.search DEBUG 2025-04-04 16:23:00,510 [pN:main.1,p:57864,tN:Thread-1] Toolbox index of panel default finished (114.903 ms)
+galaxy.tools.search DEBUG 2025-04-04 16:23:00,511 [pN:main.1,p:57864,tN:Thread-1] Starting to build toolbox index of panel ontology:edam_operations.
+galaxy.tools.search DEBUG 2025-04-04 16:23:00,536 [pN:main.1,p:57864,tN:Thread-1] Toolbox index of panel ontology:edam_operations finished (24.910 ms)
+galaxy.tools.search DEBUG 2025-04-04 16:23:00,537 [pN:main.1,p:57864,tN:Thread-1] Starting to build toolbox index of panel ontology:edam_topics.
+galaxy.tools.search DEBUG 2025-04-04 16:23:00,564 [pN:main.1,p:57864,tN:Thread-1] Toolbox index of panel ontology:edam_topics finished (27.006 ms)
+galaxy.jobs DEBUG 2025-04-04 16:23:00,610 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] (1) Working directory for job is: /tmp/tmpii1pbxtf/job_working_directory/000/1
+galaxy.jobs.runners DEBUG 2025-04-04 16:23:00,629 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] Job [1] queued (216.233 ms)
+galaxy.queue_worker INFO 2025-04-04 16:23:00,677 [pN:main.1,p:57864,tN:Thread-1] Instance 'main.1' received 'rebuild_toolbox_search_index' task, executing now.
+galaxy.tools.search DEBUG 2025-04-04 16:23:00,696 [pN:main.1,p:57864,tN:Thread-1] Starting to build toolbox index of panel default.
+galaxy.jobs.handler INFO 2025-04-04 16:23:00,688 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] (1) Job dispatched
+galaxy.tools.search DEBUG 2025-04-04 16:23:00,706 [pN:main.1,p:57864,tN:Thread-1] Toolbox index of panel default finished (9.626 ms)
+galaxy.tools.search DEBUG 2025-04-04 16:23:00,711 [pN:main.1,p:57864,tN:Thread-1] Starting to build toolbox index of panel ontology:edam_operations.
+galaxy.jobs.mapper DEBUG 2025-04-04 16:23:00,711 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] (2) Mapped job to destination id: upload_dest
+galaxy.jobs.handler DEBUG 2025-04-04 16:23:00,722 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] (2) Dispatching to planemo_runner runner
+galaxy.tools.search DEBUG 2025-04-04 16:23:00,732 [pN:main.1,p:57864,tN:Thread-1] Toolbox index of panel ontology:edam_operations finished (21.088 ms)
+galaxy.tools.search DEBUG 2025-04-04 16:23:00,733 [pN:main.1,p:57864,tN:Thread-1] Starting to build toolbox index of panel ontology:edam_topics.
+galaxy.tools.search DEBUG 2025-04-04 16:23:00,740 [pN:main.1,p:57864,tN:Thread-1] Toolbox index of panel ontology:edam_topics finished (7.262 ms)
+galaxy.jobs DEBUG 2025-04-04 16:23:00,783 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] (2) Working directory for job is: /tmp/tmpii1pbxtf/job_working_directory/000/2
+galaxy.jobs.runners DEBUG 2025-04-04 16:23:00,814 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] Job [2] queued (91.258 ms)
+galaxy.jobs.handler INFO 2025-04-04 16:23:00,829 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] (2) Job dispatched
+galaxy.jobs DEBUG 2025-04-04 16:23:00,923 [pN:main.1,p:57864,tN:LocalRunner.work_thread-0] Job wrapper for Job [1] prepared (284.787 ms)
+galaxy.jobs.command_factory INFO 2025-04-04 16:23:00,930 [pN:main.1,p:57864,tN:LocalRunner.work_thread-0] Built script [/tmp/tmpii1pbxtf/job_working_directory/000/1/tool_script.sh] for tool command [python '/tmp/tmpii1pbxtf/galaxy-dev/tools/data_source/upload.py' '/tmp/tmpii1pbxtf/galaxy-dev' '/tmp/tmpii1pbxtf/job_working_directory/000/1/registry.xml' '/tmp/tmpii1pbxtf/job_working_directory/000/1/upload_params.json' '1:/tmp/tmpii1pbxtf/job_working_directory/000/1/outputs/dataset_d7cfe206-9e78-45f8-972c-8d5ac22d66e9_files:/tmp/tmpii1pbxtf/job_working_directory/000/1/outputs/dataset_d7cfe206-9e78-45f8-972c-8d5ac22d66e9.dat']
+galaxy.jobs DEBUG 2025-04-04 16:23:00,944 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] Job wrapper for Job [2] prepared (101.965 ms)
+galaxy.jobs.command_factory INFO 2025-04-04 16:23:00,953 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] Built script [/tmp/tmpii1pbxtf/job_working_directory/000/2/tool_script.sh] for tool command [python '/tmp/tmpii1pbxtf/galaxy-dev/tools/data_source/upload.py' '/tmp/tmpii1pbxtf/galaxy-dev' '/tmp/tmpii1pbxtf/job_working_directory/000/2/registry.xml' '/tmp/tmpii1pbxtf/job_working_directory/000/2/upload_params.json' '2:/tmp/tmpii1pbxtf/job_working_directory/000/2/outputs/dataset_c521a8b8-134a-4e68-9b35-be1b6317e6e8_files:/tmp/tmpii1pbxtf/job_working_directory/000/2/outputs/dataset_c521a8b8-134a-4e68-9b35-be1b6317e6e8.dat']
+galaxy.jobs.runners DEBUG 2025-04-04 16:23:01,061 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] (2) command is: mkdir -p working outputs configs
+if [ -d _working ]; then
+    rm -rf working/ outputs/ configs/; cp -R _working working; cp -R _outputs outputs; cp -R _configs configs
+else
+    cp -R working _working; cp -R outputs _outputs; cp -R configs _configs
+fi
+cd working; /bin/bash /tmp/tmpii1pbxtf/job_working_directory/000/2/tool_script.sh > '../outputs/tool_stdout' 2> '../outputs/tool_stderr'; return_code=$?; echo $return_code > /tmp/tmpii1pbxtf/job_working_directory/000/2/galaxy_2.ec; cd '/tmp/tmpii1pbxtf/job_working_directory/000/2'; 
+[ "$GALAXY_VIRTUAL_ENV" = "None" ] && GALAXY_VIRTUAL_ENV="$_GALAXY_VIRTUAL_ENV"; _galaxy_setup_environment True; python metadata/set.py; sh -c "exit $return_code"
+galaxy.jobs.runners DEBUG 2025-04-04 16:23:01,071 [pN:main.1,p:57864,tN:LocalRunner.work_thread-0] (1) command is: mkdir -p working outputs configs
+if [ -d _working ]; then
+    rm -rf working/ outputs/ configs/; cp -R _working working; cp -R _outputs outputs; cp -R _configs configs
+else
+    cp -R working _working; cp -R outputs _outputs; cp -R configs _configs
+fi
+cd working; /bin/bash /tmp/tmpii1pbxtf/job_working_directory/000/1/tool_script.sh > '../outputs/tool_stdout' 2> '../outputs/tool_stderr'; return_code=$?; echo $return_code > /tmp/tmpii1pbxtf/job_working_directory/000/1/galaxy_1.ec; cd '/tmp/tmpii1pbxtf/job_working_directory/000/1'; 
+[ "$GALAXY_VIRTUAL_ENV" = "None" ] && GALAXY_VIRTUAL_ENV="$_GALAXY_VIRTUAL_ENV"; _galaxy_setup_environment True; python metadata/set.py; sh -c "exit $return_code"
+galaxy.jobs.runners.local DEBUG 2025-04-04 16:23:01,074 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] (2) executing job script: /tmp/tmpii1pbxtf/job_working_directory/000/2/galaxy_2.sh
+galaxy.jobs.runners.local DEBUG 2025-04-04 16:23:01,097 [pN:main.1,p:57864,tN:LocalRunner.work_thread-0] (1) executing job script: /tmp/tmpii1pbxtf/job_working_directory/000/1/galaxy_1.sh
+galaxy.jobs.runners.util.process_groups DEBUG 2025-04-04 16:23:16,617 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] check_pg(): No process found in process group 57885
+galaxy.jobs.runners.local DEBUG 2025-04-04 16:23:16,619 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] execution finished: /tmp/tmpii1pbxtf/job_working_directory/000/2/galaxy_2.sh
+galaxy.jobs DEBUG 2025-04-04 16:23:16,741 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] finish(): Moved /tmp/tmpii1pbxtf/job_working_directory/000/2/outputs/dataset_c521a8b8-134a-4e68-9b35-be1b6317e6e8.dat to /tmp/tmpii1pbxtf/files/c/5/2/dataset_c521a8b8-134a-4e68-9b35-be1b6317e6e8.dat
+galaxy.model.metadata DEBUG 2025-04-04 16:23:16,753 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] loading metadata from file for: HistoryDatasetAssociation 2
+galaxy.jobs DEBUG 2025-04-04 16:23:16,854 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] job_wrapper.finish for job 2 executed (120.828 ms)
+galaxy.jobs.runners.util.process_groups DEBUG 2025-04-04 16:23:17,936 [pN:main.1,p:57864,tN:LocalRunner.work_thread-0] check_pg(): No process found in process group 57888
+galaxy.jobs.runners.local DEBUG 2025-04-04 16:23:17,936 [pN:main.1,p:57864,tN:LocalRunner.work_thread-0] execution finished: /tmp/tmpii1pbxtf/job_working_directory/000/1/galaxy_1.sh
+galaxy.jobs DEBUG 2025-04-04 16:23:18,158 [pN:main.1,p:57864,tN:LocalRunner.work_thread-0] finish(): Moved /tmp/tmpii1pbxtf/job_working_directory/000/1/outputs/dataset_d7cfe206-9e78-45f8-972c-8d5ac22d66e9.dat to /tmp/tmpii1pbxtf/files/d/7/c/dataset_d7cfe206-9e78-45f8-972c-8d5ac22d66e9.dat
+galaxy.model.metadata DEBUG 2025-04-04 16:23:18,165 [pN:main.1,p:57864,tN:LocalRunner.work_thread-0] loading metadata from file for: HistoryDatasetAssociation 1
+galaxy.jobs DEBUG 2025-04-04 16:23:18,219 [pN:main.1,p:57864,tN:LocalRunner.work_thread-0] job_wrapper.finish for job 1 executed (69.562 ms)
+galaxy.tools INFO 2025-04-04 16:23:18,335 [pN:main.1,p:57864,tN:WSGI_0] Validated and populated state for tool request (62.585 ms)
+galaxy.tools.actions INFO 2025-04-04 16:23:18,347 [pN:main.1,p:57864,tN:WSGI_0] Handled output named out_excluded for tool FROGS_itsx (3.551 ms)
+galaxy.tools.actions INFO 2025-04-04 16:23:18,350 [pN:main.1,p:57864,tN:WSGI_0] Handled output named out_fasta for tool FROGS_itsx (2.151 ms)
+galaxy.tools.actions INFO 2025-04-04 16:23:18,352 [pN:main.1,p:57864,tN:WSGI_0] Handled output named out_abundance_biom for tool FROGS_itsx (1.956 ms)
+galaxy.tools.actions INFO 2025-04-04 16:23:18,356 [pN:main.1,p:57864,tN:WSGI_0] Handled output named summary_file for tool FROGS_itsx (4.078 ms)
+galaxy.tools.actions INFO 2025-04-04 16:23:18,359 [pN:main.1,p:57864,tN:WSGI_0] Added output datasets to history (2.435 ms)
+galaxy.tools.actions INFO 2025-04-04 16:23:18,369 [pN:main.1,p:57864,tN:WSGI_0] Setup for job Job[unflushed,tool_id=FROGS_itsx] complete, ready to be enqueued (9.751 ms)
+galaxy.tools.execute DEBUG 2025-04-04 16:23:18,370 [pN:main.1,p:57864,tN:WSGI_0] Tool FROGS_itsx created job None (30.025 ms)
+galaxy.web_stack.handlers INFO 2025-04-04 16:23:18,456 [pN:main.1,p:57864,tN:WSGI_0] (Job[id=3,tool_id=FROGS_itsx]) Handler '_default_' assigned using 'HANDLER_ASSIGNMENT_METHODS.DB_SKIP_LOCKED' assignment method
+galaxy.tools.execute DEBUG 2025-04-04 16:23:18,476 [pN:main.1,p:57864,tN:WSGI_0] Created 1 job(s) for tool FROGS_itsx request (140.062 ms)
+galaxy.jobs.handler DEBUG 2025-04-04 16:23:18,673 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] Grabbed Job(s): 3
+galaxy.jobs.mapper DEBUG 2025-04-04 16:23:18,697 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] (3) Mapped job to destination id: planemo_dest
+galaxy.jobs.handler DEBUG 2025-04-04 16:23:18,706 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] (3) Dispatching to planemo_runner runner
+galaxy.jobs DEBUG 2025-04-04 16:23:18,816 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] (3) Working directory for job is: /tmp/tmpii1pbxtf/job_working_directory/000/3
+galaxy.jobs.runners DEBUG 2025-04-04 16:23:18,833 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] Job [3] queued (127.075 ms)
+galaxy.jobs.handler INFO 2025-04-04 16:23:18,855 [pN:main.1,p:57864,tN:JobHandlerQueue.monitor_thread] (3) Job dispatched
+galaxy.jobs DEBUG 2025-04-04 16:23:18,928 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] Job wrapper for Job [3] prepared (81.852 ms)
+galaxy.tool_util.deps DEBUG 2025-04-04 16:23:18,931 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] Using dependency frogs version 4.2.0 of type conda
+galaxy.tool_util.deps DEBUG 2025-04-04 16:23:18,931 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] Using dependency itsx version 1.1.2 of type conda
+galaxy.tool_util.deps DEBUG 2025-04-04 16:23:18,932 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] Using dependency frogs version 4.2.0 of type conda
+galaxy.tool_util.deps DEBUG 2025-04-04 16:23:18,932 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] Using dependency itsx version 1.1.2 of type conda
+galaxy.jobs.command_factory INFO 2025-04-04 16:23:18,940 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] Built script [/tmp/tmpii1pbxtf/job_working_directory/000/3/tool_script.sh] for tool command [[ "$(basename "$CONDA_DEFAULT_ENV")" = "$(basename '/home/maria/miniconda3/envs/mulled-v1-5430c90415ef147b466beff860ee6603010e537397e8985a35da24a6efe209d9')" ] || {
+MAX_TRIES=3
+COUNT=0
+while [ $COUNT -lt $MAX_TRIES ]; do
+    . '/home/maria/miniconda3/bin/activate' '/home/maria/miniconda3/envs/mulled-v1-5430c90415ef147b466beff860ee6603010e537397e8985a35da24a6efe209d9' > conda_activate.log 2>&1
+    if [ $? -eq 0 ];then
+        break
+    else
+        let COUNT=COUNT+1
+        if [ $COUNT -eq $MAX_TRIES ];then
+            echo "Failed to activate conda environment! Error was:"
+            cat conda_activate.log
+            exit 1
+        fi
+        sleep 10s
+    fi
+done
+} ; [ "$(basename "$CONDA_DEFAULT_ENV")" = "$(basename '/home/maria/miniconda3/envs/mulled-v1-5430c90415ef147b466beff860ee6603010e537397e8985a35da24a6efe209d9')" ] || {
+MAX_TRIES=3
+COUNT=0
+while [ $COUNT -lt $MAX_TRIES ]; do
+    . '/home/maria/miniconda3/bin/activate' '/home/maria/miniconda3/envs/mulled-v1-5430c90415ef147b466beff860ee6603010e537397e8985a35da24a6efe209d9' > conda_activate.log 2>&1
+    if [ $? -eq 0 ];then
+        break
+    else
+        let COUNT=COUNT+1
+        if [ $COUNT -eq $MAX_TRIES ];then
+            echo "Failed to activate conda environment! Error was:"
+            cat conda_activate.log
+            exit 1
+        fi
+        sleep 10s
+    fi
+done
+} ; itsx.py --nb-cpus ${GALAXY_SLOTS:-1} --input-fasta '/tmp/tmpii1pbxtf/files/d/7/c/dataset_d7cfe206-9e78-45f8-972c-8d5ac22d66e9.dat' --input-biom '/tmp/tmpii1pbxtf/files/c/5/2/dataset_c521a8b8-134a-4e68-9b35-be1b6317e6e8.dat' --out-fasta '/tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_0d0a7c79-e505-483e-8fc1-2f58e6fa1d10.dat' --out-abundance '/tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_05b7e6c9-cd0d-418e-9aa1-af5f0314fcd2.dat' --out-removed '/tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_64bf29e2-1c2a-46c1-88ee-9742235b426f.dat' --summary '/tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_cadb4f01-190b-4da8-ac00-a9ff17a7f2fd.dat' --organism-groups 'F'  --check-its-only]
+galaxy.jobs.runners DEBUG 2025-04-04 16:23:18,994 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] (3) command is: mkdir -p working outputs configs
+if [ -d _working ]; then
+    rm -rf working/ outputs/ configs/; cp -R _working working; cp -R _outputs outputs; cp -R _configs configs
+else
+    cp -R working _working; cp -R outputs _outputs; cp -R configs _configs
+fi
+cd working; /bin/bash /tmp/tmpii1pbxtf/job_working_directory/000/3/tool_script.sh > '../outputs/tool_stdout' 2> '../outputs/tool_stderr'; return_code=$?; echo $return_code > /tmp/tmpii1pbxtf/job_working_directory/000/3/galaxy_3.ec; 
+if [ -f "/tmp/tmpii1pbxtf/job_working_directory/000/3/working/out_removed.fasta" -a -f "/tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_64bf29e2-1c2a-46c1-88ee-9742235b426f.dat" ] ; then cp "/tmp/tmpii1pbxtf/job_working_directory/000/3/working/out_removed.fasta" "/tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_64bf29e2-1c2a-46c1-88ee-9742235b426f.dat" ; fi; 
+if [ -f "/tmp/tmpii1pbxtf/job_working_directory/000/3/working/itsx.fasta" -a -f "/tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_0d0a7c79-e505-483e-8fc1-2f58e6fa1d10.dat" ] ; then cp "/tmp/tmpii1pbxtf/job_working_directory/000/3/working/itsx.fasta" "/tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_0d0a7c79-e505-483e-8fc1-2f58e6fa1d10.dat" ; fi; 
+if [ -f "/tmp/tmpii1pbxtf/job_working_directory/000/3/working/itsx.biom" -a -f "/tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_05b7e6c9-cd0d-418e-9aa1-af5f0314fcd2.dat" ] ; then cp "/tmp/tmpii1pbxtf/job_working_directory/000/3/working/itsx.biom" "/tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_05b7e6c9-cd0d-418e-9aa1-af5f0314fcd2.dat" ; fi; 
+if [ -f "/tmp/tmpii1pbxtf/job_working_directory/000/3/working/report.html" -a -f "/tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_cadb4f01-190b-4da8-ac00-a9ff17a7f2fd.dat" ] ; then cp "/tmp/tmpii1pbxtf/job_working_directory/000/3/working/report.html" "/tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_cadb4f01-190b-4da8-ac00-a9ff17a7f2fd.dat" ; fi; cd '/tmp/tmpii1pbxtf/job_working_directory/000/3'; 
+[ "$GALAXY_VIRTUAL_ENV" = "None" ] && GALAXY_VIRTUAL_ENV="$_GALAXY_VIRTUAL_ENV"; _galaxy_setup_environment True; python metadata/set.py; sh -c "exit $return_code"
+galaxy.jobs.runners.local DEBUG 2025-04-04 16:23:19,001 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] (3) executing job script: /tmp/tmpii1pbxtf/job_working_directory/000/3/galaxy_3.sh
+galaxy.jobs.runners.util.process_groups DEBUG 2025-04-04 16:23:42,384 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] check_pg(): No process found in process group 57953
+galaxy.jobs.runners.local DEBUG 2025-04-04 16:23:42,385 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] execution finished: /tmp/tmpii1pbxtf/job_working_directory/000/3/galaxy_3.sh
+galaxy.jobs DEBUG 2025-04-04 16:23:42,485 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] finish(): Moved /tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_64bf29e2-1c2a-46c1-88ee-9742235b426f.dat to /tmp/tmpii1pbxtf/files/6/4/b/dataset_64bf29e2-1c2a-46c1-88ee-9742235b426f.dat
+galaxy.jobs DEBUG 2025-04-04 16:23:42,487 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] finish(): Moved /tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_0d0a7c79-e505-483e-8fc1-2f58e6fa1d10.dat to /tmp/tmpii1pbxtf/files/0/d/0/dataset_0d0a7c79-e505-483e-8fc1-2f58e6fa1d10.dat
+galaxy.jobs DEBUG 2025-04-04 16:23:42,488 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] finish(): Moved /tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_05b7e6c9-cd0d-418e-9aa1-af5f0314fcd2.dat to /tmp/tmpii1pbxtf/files/0/5/b/dataset_05b7e6c9-cd0d-418e-9aa1-af5f0314fcd2.dat
+galaxy.jobs DEBUG 2025-04-04 16:23:42,488 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] finish(): Moved /tmp/tmpii1pbxtf/job_working_directory/000/3/outputs/dataset_cadb4f01-190b-4da8-ac00-a9ff17a7f2fd.dat to /tmp/tmpii1pbxtf/files/c/a/d/dataset_cadb4f01-190b-4da8-ac00-a9ff17a7f2fd.dat
+galaxy.model.metadata DEBUG 2025-04-04 16:23:42,521 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] loading metadata from file for: HistoryDatasetAssociation 3
+galaxy.model.metadata DEBUG 2025-04-04 16:23:42,546 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] loading metadata from file for: HistoryDatasetAssociation 4
+galaxy.model.metadata DEBUG 2025-04-04 16:23:42,548 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] loading metadata from file for: HistoryDatasetAssociation 5
+galaxy.model.metadata DEBUG 2025-04-04 16:23:42,553 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] loading metadata from file for: HistoryDatasetAssociation 6
+galaxy.jobs DEBUG 2025-04-04 16:23:42,701 [pN:main.1,p:57864,tN:LocalRunner.work_thread-1] job_wrapper.finish for job 3 executed (233.790 ms)

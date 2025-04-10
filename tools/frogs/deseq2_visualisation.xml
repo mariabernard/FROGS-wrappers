@@ -3,7 +3,6 @@
     <macros>
         <import>macros.xml</import>
     </macros>
-    <expand macro="xrefs"/>
     <expand macro="requirements_phyloseq">
         <requirement type="package" version="1.34.0">bioconductor-deseq2</requirement>
         <requirement type="package" version="0.18">r-dt</requirement>
@@ -62,7 +61,8 @@
         </data>
     </outputs>
     <tests>
-        <test>
+        <test expect_num_outputs="1">
+            <param name="analysis" value="ASV"/>
             <param name="abundanceData" value="references/16-phylo_import.Rdata"/>
             <param name="dds" value="references/23-deseq2_preprocess.Rdata"/>
             <param name="var" value="EnvType" />

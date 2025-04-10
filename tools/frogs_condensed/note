@@ -1,0 +1,131 @@
+######################################################################################################################
+#  DOC
+
+# galaxy start / restart / stop
+. /path/to/galaxy/.venv/bin/activate
+galaxyctl stop
+
+
+
+# utilisation d'un fichier macro.xml pour incorporer du code "token" ou bien du XML "expand macro"
+
+# 	https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-integration/slides.html#59
+
+# input/paramètre conditionnel
+# 	https://docs.galaxyproject.org/en/latest/dev/schema.html#tool-inputs-conditional
+# problème le tag when de test que l'égalite vis à vis d'une valeur.
+
+
+# output conditionnel
+# 	https://docs.galaxyproject.org/en/latest/dev/schema.html#tool-outputs-data-filter
+
+# output multiple à découvrir
+# 	https://docs.galaxyproject.org/en/latest/dev/schema.html#tool-outputs-data-discover-datasets
+
+# cheetah user guide 
+# 	https://cheetahtemplate.org/users_guide/index.html
+
+
+https://help.galaxyproject.org/t/how-to-encode-conditionnal-input-with-non-equal-test-in-the-when-statement/14894
+######################################################################################################################
+# A POURSUIVRE
+# - gestion des requirements ... peut être tout mettre dans frogsstat?
+
+######################################################################################################################
+# QUESTION
+
+# - utilité des paramètre python_template_version="3.5" profile="21.05">
+# - renommer les output en fonction du paramètre frogsstat_tools.tool_name. Check "movie.name" dans l'aide : https://docs.galaxyproject.org/en/latest/dev/schema.html
+
+
+######################################################################################################################
+# CHECK DES OPTIONS DES PROGRAMMES
+# cd ~/workspace/FROGS_dev/app
+# for i in *.py; do python $i -h >> ~/workspace/FROGS-wrappers_dev/tools/frogs_condensed/tools-help.txt; done
+# for i in illumina longreads 454; do python denoising.py $i -h >> ~/workspace/FROGS-wrappers_dev/tools/frogs_condensed/denoising-help.txt; done
+# cd ~/workspace/FROGS-wrappers_dev/tools/frogs_condensed
+# grep -c usage tools-help.txt
+# 28
+grep -E "usage|^  \-\-" tools-help.txt | awk '{
+	if ($1 == "usage:"){ tool = $2; }
+	else{
+		if (tab[$1] == "") { tab[$1] = tool }
+		else{tab[$1] = tab[$1]";"tool}
+		count[$1]++
+	}
+}END{for(opt in tab){
+	print opt"\t"count[opt]"\t"tab[opt]
+}}' | sort -k 2,2n > opt-in-tool.tsv
+
+# check
+cd ~/workspace/FROGS_dev/app/
+ls *.py | sort >> ~/workspace/FROGS-wrappers_dev/tools/frogs_condensed/tool_list.txt
+cd ~/workspace/FROGS-wrappers_dev/tools/frogs_condensed
+
+	# --version n'est pas présent dans 2 outils (26/28) 
+	grep 'version' opt-in-tool.tsv | cut -f 3 | sed 's/;/\n/g' | sort > tmp
+	cat tmp tool_list.txt | sort | uniq -c | sort -k 1,1n | head
+	      # 1 clustering.py
+	      # 1 cluster_stats.py
+	#		présence de short option ==> corrigé
+	
+	grep 'debug' opt-in-tool.tsv | cut -f 3 | sed 's/;/\n/g' | sort > tmp
+	cat tmp tool_list.txt | sort | uniq -c | sort -k 1,1n | head
+	
+	grep 'html' opt-in-tool.tsv | cut -f 3 | sed 's/;/\n/g' | sort > tmp
+	cat tmp tool_list.txt | sort | uniq -c | sort -k 1,1n | head
+	
+	grep 'input-biom' opt-in-tool.tsv | cut -f 3 | sed 's/;/\n/g' | sort > tmp
+	cat tmp tool_list.txt | sort | uniq -c | sort -k 1,1n | head
+	
+	grep 'input-fasta' opt-in-tool.tsv | cut -f 3 | sed 's/;/\n/g' | sort > tmp
+	cat tmp tool_list.txt | sort | uniq -c | sort -k 1,1n | head
+
+
+###################################################################################
+#  ==> pas de différence entre outils FROGS / FROGSSTAT / FROGSFUNC
+# ==> justifie des wrappers séparés
+			
+		# STAT tools
+rm  ~/workspace/FROGS-wrappers_dev/tools/frogs_condensed/stat-tools-help.txt
+cd ~/workspace/FROGS_dev/app
+for i in phyloseq*.py deseq*.py; do python $i -h >> ~/workspace/FROGS-wrappers_dev/tools/frogs_condensed/stat-tools-help.txt; done
+cd ~/workspace/FROGS-wrappers_dev/tools/frogs_condensed
+grep -c usage stat-tools-help.txt
+# 9
+grep -E "usage|^  \-\-" stat-tools-help.txt | awk '{
+	if ($1 == "usage:"){ tool = $2; }
+	else{
+		if (tab[$1] == "") { tab[$1] = tool }
+		else{tab[$1] = tab[$1]";"tool}
+		count[$1]++
+	}
+}END{for(opt in tab){
+	print opt"\t"count[opt]"\t"tab[opt]
+}}' | sort -k 2,2n > stat-opt-in-tool.tsv
+
+# check
+cd ~/workspace/FROGS_dev/app/
+ls phyloseq*.py deseq*.py| sort >> ~/workspace/FROGS-wrappers_dev/tools/frogs_condensed/stat_tool_list.txt
+cd ~/workspace/FROGS-wrappers_dev/tools/frogs_condensed
+
+	grep 'html' stat-opt-in-tool.tsv | cut -f 3 | sed 's/;/\n/g' | sort > tmp
+	cat tmp stat_tool_list.txt | sort | uniq -c | sort -k 1,1n | head
+
+	grep 'rdata' stat-opt-in-tool.tsv | cut -f 3 | sed 's/;/\n/g' | sort > tmp
+	cat tmp stat_tool_list.txt | sort | uniq -c | sort -k 1,1n | head
+
+
+
+            echo phyloseq_composition.py
+                --phyloseq-rdata '${frogsstat_tools.phyloseq_rdata}'
+                --var-exp '$frogsstat_tools.$var-exp'
+                --taxa-rank-1 '$frogsstat_tools.$taxaRank1'
+                --taxa-set-1 '$frogsstat_tools.$taxaSet1'
+                --taxa-rank-2 '$frogsstat_tools.$taxaRank2'
+                --number-of-taxa $frogsstat_tools.$numberOfTaxa
+                --html '$html'
+
+
+
+

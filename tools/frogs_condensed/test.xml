@@ -1,0 +1,78 @@
+<tool id="test" name="test" version="@TOOL_VERSION@+galaxy@VERSION_SUFFIX@" python_template_version="3.5" profile="21.05">
+    <description>structure and composition analysis</description>
+    <macros>
+        <import>macros.xml</import>
+        <import>frogstat_macros.xml</import>
+    </macros>
+
+    <expand macro="frogs_requirement">
+        <expand macro="frogsstat_full_requirements" />
+    </expand>
+
+    <command detect_errors="exit_code"><![CDATA[
+        #if $analysis.AType == "analysis1":   
+            echo program_for_analysis1.py
+                --input '$A1_param'
+                --report '$report'
+        #elif $analysis.AType == "analysis2":   
+            echo program_for_analysis2.py
+                #if $feature.FType == 'F1':
+                    --input '$F1_param'     
+                    --report '$report'
+                    --out2 '$out2_F1'
+                #elif $feature.FType == 'F2':
+                    --input '$F2_param'     
+                    --report '$report'
+                    --out2 '$out2_F2'   
+                #end if
+        #end if
+    ]]>
+    </command>
+    
+    <inputs>
+        <conditional name="analysis">
+            <param name="AType" type="select" label="Choose the analysis you want to perform">
+                <option value="analysis1">Analysis1</option>
+                <option value="analysis2">Analysis2</option>
+            </param>
+            <!-- ##################### analysis1 ##################### -->
+            <when value="analysis1">
+                <param name="A1_param" type="data" label="analysis1 input"/>
+            </when>
+            <!-- ##################### analysis2 ##################### -->
+            <when value="analysis2">
+                <conditional name="feature">
+                    <param name="Ftype" type="select" label="Type of feature on which to perform analysis">
+                        <option value="F1">F1</option>
+                        <option value="F2">F2</option>
+                    </param>
+                    <when value="F1">
+                        <param name="F1_param" type="data" label="feature1 input"/>
+                    </when>
+                    <when value="F2">
+                        <param name="F2_param" type="data" label="feature2 input"/>
+                    </when>
+                </conditional>
+            </when>   
+        </conditional>
+    </inputs>
+
+    <outputs>
+        <data name="report" label="analysis report" />
+        <data name="out2_F1" label="specific analysis2 output for feature type 1">
+            <filter> analysis['AType'] == 'analysis2' and feature['Ftype'] == 'F1' </filter>
+        </data>        
+        <data name="out2_F2" label="specific analysis2 output for feature type 2">
+            <filter> analysis['AType'] == 'analysis2' and feature['Ftype'] == 'F2' </filter>
+        </data> 
+    </outputs>
+    
+    <tests>
+    </tests>
+
+    <help><![CDATA[
+    TODO: Fill in help.
+    ]]>
+    </help>
+
+</tool>

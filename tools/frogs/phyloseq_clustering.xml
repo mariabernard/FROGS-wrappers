@@ -3,7 +3,6 @@
     <macros>
         <import>macros.xml</import>
     </macros>
-    <expand macro="xrefs"/>
     <expand macro="requirements_phyloseq" />
     <command detect_errors="exit_code">
     phyloseq_clustering.py
@@ -29,10 +28,10 @@
 			<param name="data" value="references/16-phylo_import.Rdata"/>
 			<param name="varExp" value="EnvType"/>
 			<param name="distance_matrix" value="references/unifrac.tsv"/>
-      		<!-- <output name="html" file="references/21-phylo_clustering.nb.html" compare="diff" lines_diff="0"/> -->
-      		<!-- <output name="html">
+      		<output name="html" file="references/21-phylo_clustering.nb.html" compare="diff" lines_diff="0"/>
+<!--       		<output name="html">
       			<assert_contents>
-                    <has_text text='FROGS Phyloseq: Sample clustering using different linkage method (version 4.0.1)' />
+                    <has_text text='FROGS Phyloseq: Sample clustering using different linkage method (version 4.2.0)' />
                     <has_text text='Phyloseq 1.38.0' />
                     <has_text text='Ward D2' />
                     <has_text text='Complete' />

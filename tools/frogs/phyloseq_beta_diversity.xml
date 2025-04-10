@@ -3,7 +3,6 @@
     <macros>
         <import>macros.xml</import>
     </macros>
-    <expand macro="xrefs"/>
     <expand macro="requirements_phyloseq">
         <requirement type="package" version="2.3">r-gridextra</requirement>
     </expand>
@@ -48,15 +47,15 @@
         </data>
     </outputs>
     <tests>
-        <test>
+        <test expect_num_outputs="1">
             <param name="data" value="references/16-phylo_import.Rdata"/>
             <param name="varExp" value="EnvType"/>
             <param name="methods" value="cc,unifrac"/>
-            <!-- <output name="html" file="references/19-phylo_beta_div.nb.html" compare="diff" lines_diff="0" /> -->
             <!-- sinon test le nombre de fois où il y a img src= on en attend 2 -->
-            <!-- <output name="html">
+            <output name="html" file="references/19-phylo_beta_div.nb.html" compare="diff" lines_diff="0" />
+            <output name="html">
                 <discovered_dataset designation="unifrac.tsv" ftype="tsv" file="references/unifrac.tsv" compare="diff" lines_diff="0"/>
-            </output> -->
+            </output>
         </test>
     </tests>
     <help>

@@ -1,0 +1,94 @@
+{
+    "summary": {
+        "num_errors": 0,
+        "num_failures": 0,
+        "num_skips": 0,
+        "num_tests": 1
+    },
+    "tests": [
+        {
+            "data": {
+                "inputs": {
+                    "data": {
+                        "id": "e1532d057aa3aaf5",
+                        "src": "hda"
+                    },
+                    "methods": [
+                        "cc",
+                        "unifrac"
+                    ],
+                    "varExp": "EnvType"
+                },
+                "job": {
+                    "command_line": "phyloseq_beta_diversity.py --rdata '/tmp/tmpux19lleq/files/7/a/9/dataset_7a9e3b42-6899-4a11-b25d-32723c8716ce.dat' --varExp 'EnvType' --distance-methods 'cc,unifrac' --matrix-outdir 'BetaMatrix' --html '/tmp/tmpux19lleq/job_working_directory/000/2/outputs/dataset_aad6c47d-d86e-45b1-95fd-daf7fce50faf.dat'",
+                    "command_version": "",
+                    "copied_from_job_id": null,
+                    "create_time": "2025-04-08T14:49:33.383570",
+                    "dependencies": [],
+                    "exit_code": 0,
+                    "external_id": "72094",
+                    "galaxy_version": "24.2",
+                    "handler": null,
+                    "history_id": "e1532d057aa3aaf5",
+                    "id": "db536e330f65421d",
+                    "inputs": {
+                        "data": {
+                            "id": "e1532d057aa3aaf5",
+                            "src": "hda",
+                            "uuid": "7a9e3b42-6899-4a11-b25d-32723c8716ce"
+                        }
+                    },
+                    "job_messages": [],
+                    "job_metrics": [],
+                    "job_runner_name": null,
+                    "job_stderr": "",
+                    "job_stdout": "",
+                    "model_class": "Job",
+                    "output_collections": {},
+                    "outputs": {
+                        "__new_primary_file_html|cc.tsv__": {
+                            "id": "5246e6219a08d741",
+                            "src": "hda",
+                            "uuid": "1a6feaa3-ab41-4bdc-9584-d9abd46d8de3"
+                        },
+                        "__new_primary_file_html|unifrac.tsv__": {
+                            "id": "1f7ed14a39ce0931",
+                            "src": "hda",
+                            "uuid": "0246e79a-42c7-4482-ae97-7dbadc50f60d"
+                        },
+                        "html": {
+                            "id": "db536e330f65421d",
+                            "src": "hda",
+                            "uuid": "aad6c47d-d86e-45b1-95fd-daf7fce50faf"
+                        }
+                    },
+                    "params": {
+                        "__input_ext": "\"input\"",
+                        "chromInfo": "\"/tmp/tmpux19lleq/galaxy-dev/tool-data/shared/ucsc/chrom/?.len\"",
+                        "dbkey": "\"?\"",
+                        "methods": "[\"cc\", \"unifrac\"]",
+                        "other_method": null,
+                        "varExp": "\"EnvType\""
+                    },
+                    "state": "ok",
+                    "stderr": "",
+                    "stdout": "## Application\nSoftware :/home/maria/miniconda3/envs/mulled-v1-ed6fddef477e9b7a69279a6fbb833d6a4721e6c33f5ebed49fa119865a444f1d/bin/phyloseq_beta_diversity.py (version : 4.2.0)\nCommand : /home/maria/miniconda3/envs/mulled-v1-ed6fddef477e9b7a69279a6fbb833d6a4721e6c33f5ebed49fa119865a444f1d/bin/phyloseq_beta_diversity.py --rdata /tmp/tmpux19lleq/files/7/a/9/dataset_7a9e3b42-6899-4a11-b25d-32723c8716ce.dat --varExp EnvType --distance-methods cc,unifrac --matrix-outdir BetaMatrix --html /tmp/tmpux19lleq/job_working_directory/000/2/outputs/dataset_aad6c47d-d86e-45b1-95fd-daf7fce50faf.dat\n\n########################################################################################################\n# Run 1 code Rmarkdown (Rscript version : [1] \"R version 4.1.2 (2021-11-01)\"\n[1] \"Rmarkdown version:  2.22\"\n[1] \"Phyloseq version:  1.38.0\")\nCommand:\n\tRscript -e \"rmarkdown::render('/home/maria/miniconda3/envs/mulled-v1-ed6fddef477e9b7a69279a6fbb833d6a4721e6c33f5ebed49fa119865a444f1d/bin/phyloseq_beta_diversity.Rmd',knit_root_dir='/tmp/tmpux19lleq/job_working_directory/000/2/working/BetaMatrix',output_file='/tmp/tmpux19lleq/job_working_directory/000/2/outputs/dataset_aad6c47d-d86e-45b1-95fd-daf7fce50faf.dat', params=list(phyloseq='/tmp/tmpux19lleq/files/7/a/9/dataset_7a9e3b42-6899-4a11-b25d-32723c8716ce.dat', varExp='EnvType', methods='cc,unifrac', libdir ='/home/maria/miniconda3/envs/mulled-v1-ed6fddef477e9b7a69279a6fbb833d6a4721e6c33f5ebed49fa119865a444f1d/lib/external-lib'), intermediates_dir='/tmp/tmpux19lleq/job_working_directory/000/2/outputs')\" 2> /tmp/tmpux19lleq/job_working_directory/000/2/outputs/1744123775.328286_72798_rmarkdown.stderr\n\nExecution:\n\tstart: 08 Apr 2025 16:49:38\n\tend:   08 Apr 2025 16:49:43\n\n",
+                    "tool_id": "FROGSSTAT_Phyloseq_Beta_Diversity",
+                    "tool_stderr": "",
+                    "tool_stdout": "## Application\nSoftware :/home/maria/miniconda3/envs/mulled-v1-ed6fddef477e9b7a69279a6fbb833d6a4721e6c33f5ebed49fa119865a444f1d/bin/phyloseq_beta_diversity.py (version : 4.2.0)\nCommand : /home/maria/miniconda3/envs/mulled-v1-ed6fddef477e9b7a69279a6fbb833d6a4721e6c33f5ebed49fa119865a444f1d/bin/phyloseq_beta_diversity.py --rdata /tmp/tmpux19lleq/files/7/a/9/dataset_7a9e3b42-6899-4a11-b25d-32723c8716ce.dat --varExp EnvType --distance-methods cc,unifrac --matrix-outdir BetaMatrix --html /tmp/tmpux19lleq/job_working_directory/000/2/outputs/dataset_aad6c47d-d86e-45b1-95fd-daf7fce50faf.dat\n\n########################################################################################################\n# Run 1 code Rmarkdown (Rscript version : [1] \"R version 4.1.2 (2021-11-01)\"\n[1] \"Rmarkdown version:  2.22\"\n[1] \"Phyloseq version:  1.38.0\")\nCommand:\n\tRscript -e \"rmarkdown::render('/home/maria/miniconda3/envs/mulled-v1-ed6fddef477e9b7a69279a6fbb833d6a4721e6c33f5ebed49fa119865a444f1d/bin/phyloseq_beta_diversity.Rmd',knit_root_dir='/tmp/tmpux19lleq/job_working_directory/000/2/working/BetaMatrix',output_file='/tmp/tmpux19lleq/job_working_directory/000/2/outputs/dataset_aad6c47d-d86e-45b1-95fd-daf7fce50faf.dat', params=list(phyloseq='/tmp/tmpux19lleq/files/7/a/9/dataset_7a9e3b42-6899-4a11-b25d-32723c8716ce.dat', varExp='EnvType', methods='cc,unifrac', libdir ='/home/maria/miniconda3/envs/mulled-v1-ed6fddef477e9b7a69279a6fbb833d6a4721e6c33f5ebed49fa119865a444f1d/lib/external-lib'), intermediates_dir='/tmp/tmpux19lleq/job_working_directory/000/2/outputs')\" 2> /tmp/tmpux19lleq/job_working_directory/000/2/outputs/1744123775.328286_72798_rmarkdown.stderr\n\nExecution:\n\tstart: 08 Apr 2025 16:49:38\n\tend:   08 Apr 2025 16:49:43\n\n",
+                    "update_time": "2025-04-08T14:49:47.421694",
+                    "user_email": "planemo@galaxyproject.org",
+                    "user_id": "e1532d057aa3aaf5"
+                },
+                "status": "success",
+                "test_index": 0,
+                "time_seconds": 22.248664140701294,
+                "tool_id": "FROGSSTAT_Phyloseq_Beta_Diversity",
+                "tool_version": "4.2.0+galaxy1"
+            },
+            "has_data": true,
+            "id": "FROGSSTAT_Phyloseq_Beta_Diversity-0"
+        }
+    ],
+    "version": "0.1"
+}

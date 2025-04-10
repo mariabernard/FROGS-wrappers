@@ -3,7 +3,6 @@
     <macros>
         <import>macros.xml</import>
     </macros>
-    <expand macro="xrefs"/>
     <expand macro="requirements">
         <requirement type="package" version="2.17.0">vsearch</requirement>
     </expand>
@@ -47,7 +46,7 @@
         <data format="html" name="summary_file" label="${tool.name}: report.html" from_work_dir="report.html" />
     </outputs>
     <tests>
-        <test>
+        <test expect_num_outputs="3">
             <param name="sequence_file" value="references/02-clustering_fastidious.fasta" />
             <conditional name="abundance_type">
                 <param name="abundance_type_selected" value="biom" />
